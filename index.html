@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="block">
+        <input type="text" placeholder="Search for city..." id="city" />
+        <div id="loader" class="loader"></div>
+        <div class="text">
+          <p>
+            Please enter the name of the city and press enter to see results
+          </p>
+        </div>
+        <div class="weather">
+          <div id="weather-info"></div>
+        </div>
+        <div class="err" id="error-container"></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
